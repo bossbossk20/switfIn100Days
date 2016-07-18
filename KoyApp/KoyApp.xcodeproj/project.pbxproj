@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7F6D449C79C41574C2B91F /* Pods_KoyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6CE1B5838FB944FED45A2 /* Pods_KoyAppUITests.framework */; };
+		451617A75B26A937A039C645 /* Pods_KoyAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C686BAFC1C7971527B50B7 /* Pods_KoyAppTests.framework */; };
+		50221BF3E44EF14B216828E8 /* Pods_KoyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562F30A21DDE086E1F172FF1 /* Pods_KoyApp.framework */; };
+		C1825FE61D3BD0800003B6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825FE51D3BD0800003B6CC /* AppDelegate.swift */; };
+		C1825FE81D3BD0800003B6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825FE71D3BD0800003B6CC /* ViewController.swift */; };
+		C1825FEB1D3BD0800003B6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1825FE91D3BD0800003B6CC /* Main.storyboard */; };
+		C1825FED1D3BD0810003B6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1825FEC1D3BD0810003B6CC /* Assets.xcassets */; };
+		C1825FF01D3BD0810003B6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1825FEE1D3BD0810003B6CC /* LaunchScreen.storyboard */; };
+		C1825FFB1D3BD0810003B6CC /* KoyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825FFA1D3BD0810003B6CC /* KoyAppTests.swift */; };
+		C18260061D3BD0810003B6CC /* KoyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18260051D3BD0810003B6CC /* KoyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1825FF71D3BD0810003B6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1825FDA1D3BD0800003B6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1825FE11D3BD0800003B6CC;
+			remoteInfo = KoyApp;
+		};
+		C18260021D3BD0810003B6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1825FDA1D3BD0800003B6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1825FE11D3BD0800003B6CC;
+			remoteInfo = KoyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C686BAFC1C7971527B50B7 /* Pods_KoyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		562F30A21DDE086E1F172FF1 /* Pods_KoyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABD7877DC4976EA63869D735 /* Pods-KoyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppUITests/Pods-KoyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1825FE21D3BD0800003B6CC /* KoyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1825FE51D3BD0800003B6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1825FE71D3BD0800003B6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1825FEA1D3BD0800003B6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1825FEC1D3BD0810003B6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1825FEF1D3BD0810003B6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1825FF11D3BD0810003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1825FF61D3BD0810003B6CC /* KoyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1825FFA1D3BD0810003B6CC /* KoyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoyAppTests.swift; sourceTree = "<group>"; };
+		C1825FFC1D3BD0810003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18260011D3BD0810003B6CC /* KoyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18260051D3BD0810003B6CC /* KoyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoyAppUITests.swift; sourceTree = "<group>"; };
+		C18260071D3BD0810003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppUITests/Pods-KoyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0E6CE1B5838FB944FED45A2 /* Pods_KoyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F548E26646DE27C83EFA30C4 /* Pods-KoyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1825FDF1D3BD0800003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50221BF3E44EF14B216828E8 /* Pods_KoyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FF31D3BD0810003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451617A75B26A937A039C645 /* Pods_KoyAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FFE1D3BD0810003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7F6D449C79C41574C2B91F /* Pods_KoyAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEABBC278BAAC200579C76D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD7877DC4976EA63869D735 /* Pods-KoyApp.debug.xcconfig */,
+				F548E26646DE27C83EFA30C4 /* Pods-KoyApp.release.xcconfig */,
+				C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */,
+				819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */,
+				BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */,
+				CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		389E53332E62BE010D894E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562F30A21DDE086E1F172FF1 /* Pods_KoyApp.framework */,
+				08C686BAFC1C7971527B50B7 /* Pods_KoyAppTests.framework */,
+				F0E6CE1B5838FB944FED45A2 /* Pods_KoyAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1825FD91D3BD0800003B6CC = {
+			isa = PBXGroup;
+			children = (
+				C1825FE41D3BD0800003B6CC /* KoyApp */,
+				C1825FF91D3BD0810003B6CC /* KoyAppTests */,
+				C18260041D3BD0810003B6CC /* KoyAppUITests */,
+				C1825FE31D3BD0800003B6CC /* Products */,
+				1FEABBC278BAAC200579C76D /* Pods */,
+				389E53332E62BE010D894E11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1825FE31D3BD0800003B6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1825FE21D3BD0800003B6CC /* KoyApp.app */,
+				C1825FF61D3BD0810003B6CC /* KoyAppTests.xctest */,
+				C18260011D3BD0810003B6CC /* KoyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1825FE41D3BD0800003B6CC /* KoyApp */ = {
+			isa = PBXGroup;
+			children = (
+				C1825FE51D3BD0800003B6CC /* AppDelegate.swift */,
+				C1825FE71D3BD0800003B6CC /* ViewController.swift */,
+				C1825FE91D3BD0800003B6CC /* Main.storyboard */,
+				C1825FEC1D3BD0810003B6CC /* Assets.xcassets */,
+				C1825FEE1D3BD0810003B6CC /* LaunchScreen.storyboard */,
+				C1825FF11D3BD0810003B6CC /* Info.plist */,
+			);
+			path = KoyApp;
+			sourceTree = "<group>";
+		};
+		C1825FF91D3BD0810003B6CC /* KoyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1825FFA1D3BD0810003B6CC /* KoyAppTests.swift */,
+				C1825FFC1D3BD0810003B6CC /* Info.plist */,
+			);
+			path = KoyAppTests;
+			sourceTree = "<group>";
+		};
+		C18260041D3BD0810003B6CC /* KoyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18260051D3BD0810003B6CC /* KoyAppUITests.swift */,
+				C18260071D3BD0810003B6CC /* Info.plist */,
+			);
+			path = KoyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1825FE11D3BD0800003B6CC /* KoyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C182600A1D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyApp" */;
+			buildPhases = (
+				67A18FE0CDB928FA41E7D437 /* [CP] Check Pods Manifest.lock */,
+				C1825FDE1D3BD0800003B6CC /* Sources */,
+				C1825FDF1D3BD0800003B6CC /* Frameworks */,
+				C1825FE01D3BD0800003B6CC /* Resources */,
+				09132C07858C9523AB1085C3 /* [CP] Embed Pods Frameworks */,
+				53AE7A075480C974C6FEB5E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoyApp;
+			productName = KoyApp;
+			productReference = C1825FE21D3BD0800003B6CC /* KoyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1825FF51D3BD0810003B6CC /* KoyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C182600D1D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyAppTests" */;
+			buildPhases = (
+				FD010193886846D1C608C5D8 /* [CP] Check Pods Manifest.lock */,
+				C1825FF21D3BD0810003B6CC /* Sources */,
+				C1825FF31D3BD0810003B6CC /* Frameworks */,
+				C1825FF41D3BD0810003B6CC /* Resources */,
+				C109BAA7BE8BD237A964A493 /* [CP] Embed Pods Frameworks */,
+				9B0CF01CE81130C406035F77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1825FF81D3BD0810003B6CC /* PBXTargetDependency */,
+			);
+			name = KoyAppTests;
+			productName = KoyAppTests;
+			productReference = C1825FF61D3BD0810003B6CC /* KoyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C18260001D3BD0810003B6CC /* KoyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18260101D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyAppUITests" */;
+			buildPhases = (
+				411FA513EFE1B9AAAFBBD5A1 /* [CP] Check Pods Manifest.lock */,
+				C1825FFD1D3BD0810003B6CC /* Sources */,
+				C1825FFE1D3BD0810003B6CC /* Frameworks */,
+				C1825FFF1D3BD0810003B6CC /* Resources */,
+				DDA3202F95EB4D33E687ECB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18260031D3BD0810003B6CC /* PBXTargetDependency */,
+			);
+			name = KoyAppUITests;
+			productName = KoyAppUITests;
+			productReference = C18260011D3BD0810003B6CC /* KoyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1825FDA1D3BD0800003B6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = thanawat;
+				TargetAttributes = {
+					C1825FE11D3BD0800003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+					};
+					C1825FF51D3BD0810003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+						TestTargetID = C1825FE11D3BD0800003B6CC;
+					};
+					C18260001D3BD0810003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+						TestTargetID = C1825FE11D3BD0800003B6CC;
+					};
+				};
+			};
+			buildConfigurationList = C1825FDD1D3BD0800003B6CC /* Build configuration list for PBXProject "KoyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1825FD91D3BD0800003B6CC;
+			productRefGroup = C1825FE31D3BD0800003B6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1825FE11D3BD0800003B6CC /* KoyApp */,
+				C1825FF51D3BD0810003B6CC /* KoyAppTests */,
+				C18260001D3BD0810003B6CC /* KoyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1825FE01D3BD0800003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825FF01D3BD0810003B6CC /* LaunchScreen.storyboard in Resources */,
+				C1825FED1D3BD0810003B6CC /* Assets.xcassets in Resources */,
+				C1825FEB1D3BD0800003B6CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FF41D3BD0810003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FFF1D3BD0810003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09132C07858C9523AB1085C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		411FA513EFE1B9AAAFBBD5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53AE7A075480C974C6FEB5E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A18FE0CDB928FA41E7D437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0CF01CE81130C406035F77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C109BAA7BE8BD237A964A493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA3202F95EB4D33E687ECB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoyAppUITests/Pods-KoyAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD010193886846D1C608C5D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1825FDE1D3BD0800003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825FE81D3BD0800003B6CC /* ViewController.swift in Sources */,
+				C1825FE61D3BD0800003B6CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FF21D3BD0810003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825FFB1D3BD0810003B6CC /* KoyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825FFD1D3BD0810003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18260061D3BD0810003B6CC /* KoyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1825FF81D3BD0810003B6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1825FE11D3BD0800003B6CC /* KoyApp */;
+			targetProxy = C1825FF71D3BD0810003B6CC /* PBXContainerItemProxy */;
+		};
+		C18260031D3BD0810003B6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1825FE11D3BD0800003B6CC /* KoyApp */;
+			targetProxy = C18260021D3BD0810003B6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1825FE91D3BD0800003B6CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1825FEA1D3BD0800003B6CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1825FEE1D3BD0810003B6CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1825FEF1D3BD0810003B6CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18260081D3BD0810003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C18260091D3BD0810003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C182600B1D3BD0810003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD7877DC4976EA63869D735 /* Pods-KoyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KoyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C182600C1D3BD0810003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F548E26646DE27C83EFA30C4 /* Pods-KoyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KoyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C182600E1D3BD0810003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoyApp.app/KoyApp";
+			};
+			name = Debug;
+		};
+		C182600F1D3BD0810003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoyApp.app/KoyApp";
+			};
+			name = Release;
+		};
+		C18260111D3BD0810003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KoyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KoyApp;
+			};
+			name = Debug;
+		};
+		C18260121D3BD0810003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KoyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kody.KoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KoyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1825FDD1D3BD0800003B6CC /* Build configuration list for PBXProject "KoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18260081D3BD0810003B6CC /* Debug */,
+				C18260091D3BD0810003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C182600A1D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C182600B1D3BD0810003B6CC /* Debug */,
+				C182600C1D3BD0810003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C182600D1D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C182600E1D3BD0810003B6CC /* Debug */,
+				C182600F1D3BD0810003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18260101D3BD0810003B6CC /* Build configuration list for PBXNativeTarget "KoyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18260111D3BD0810003B6CC /* Debug */,
+				C18260121D3BD0810003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1825FDA1D3BD0800003B6CC /* Project object */;
+}
