@@ -1,15 +1,12 @@
 PODS:
   - Alamofire (3.4.1)
-  - CircleMenu (1.0.7)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
-  - CircleMenu (~> 1.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
-  CircleMenu: ddd8000fe2774497c367b8f6fcc2354a9a28f4db
 
-PODFILE CHECKSUM: f2fc3edcdd03ef49efd50a4141bd61394b7b06d8
+PODFILE CHECKSUM: dcfb1aebebf9acf3658847ae4f7db5f3d51b2de4
 
 COCOAPODS: 1.0.1

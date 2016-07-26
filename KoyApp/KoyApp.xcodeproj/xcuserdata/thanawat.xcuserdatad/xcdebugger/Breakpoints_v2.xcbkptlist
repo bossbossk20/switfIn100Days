@@ -17,6 +17,38 @@
             endingLineNumber = "10"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KoyApp.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; KoyApp.ViewController"
+                  moduleName = "KoyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanawat/swiftIn100Days/KoyApp/KoyApp/ViewController.swift"
+                  timestampString = "490621045.114702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KoyApp.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;KoyApp.ViewController&gt;"
+                  moduleName = "KoyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanawat/swiftIn100Days/KoyApp/KoyApp/ViewController.swift"
+                  timestampString = "490621045.115212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

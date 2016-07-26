@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A7F6D449C79C41574C2B91F /* Pods_KoyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6CE1B5838FB944FED45A2 /* Pods_KoyAppUITests.framework */; };
-		451617A75B26A937A039C645 /* Pods_KoyAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C686BAFC1C7971527B50B7 /* Pods_KoyAppTests.framework */; };
 		50221BF3E44EF14B216828E8 /* Pods_KoyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562F30A21DDE086E1F172FF1 /* Pods_KoyApp.framework */; };
 		C1825FE61D3BD0800003B6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825FE51D3BD0800003B6CC /* AppDelegate.swift */; };
 		C1825FE81D3BD0800003B6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825FE71D3BD0800003B6CC /* ViewController.swift */; };
@@ -39,9 +37,7 @@
 /* Begin PBXFileReference section */
 		08C686BAFC1C7971527B50B7 /* Pods_KoyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		562F30A21DDE086E1F172FF1 /* Pods_KoyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABD7877DC4976EA63869D735 /* Pods-KoyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppUITests/Pods-KoyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1825FE21D3BD0800003B6CC /* KoyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1825FE51D3BD0800003B6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1825FE71D3BD0800003B6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,8 +51,6 @@
 		C18260011D3BD0810003B6CC /* KoyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18260051D3BD0810003B6CC /* KoyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoyAppUITests.swift; sourceTree = "<group>"; };
 		C18260071D3BD0810003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppTests/Pods-KoyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyAppUITests/Pods-KoyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F0E6CE1B5838FB944FED45A2 /* Pods_KoyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F548E26646DE27C83EFA30C4 /* Pods-KoyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoyApp/Pods-KoyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451617A75B26A937A039C645 /* Pods_KoyAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A7F6D449C79C41574C2B91F /* Pods_KoyAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +86,6 @@
 			children = (
 				ABD7877DC4976EA63869D735 /* Pods-KoyApp.debug.xcconfig */,
 				F548E26646DE27C83EFA30C4 /* Pods-KoyApp.release.xcconfig */,
-				C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */,
-				819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */,
-				BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */,
-				CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -595,7 +583,6 @@
 		};
 		C182600E1D3BD0810003B6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B3771E01BCB35D71F15F49 /* Pods-KoyAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KoyAppTests/Info.plist;
@@ -608,7 +595,6 @@
 		};
 		C182600F1D3BD0810003B6CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 819F875B8E5BBD25B53EB9E6 /* Pods-KoyAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KoyAppTests/Info.plist;
@@ -621,7 +607,6 @@
 		};
 		C18260111D3BD0810003B6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE855BF545E6CE2092AEA6BE /* Pods-KoyAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KoyAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -633,7 +618,6 @@
 		};
 		C18260121D3BD0810003B6CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB3463CE896198D5B31D5F83 /* Pods-KoyAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KoyAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
