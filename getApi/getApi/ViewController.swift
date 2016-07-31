@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         queryApi()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,7 +28,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func queryApi () {
-        Alamofire.request(.GET, "http://api.fixer.io/latest")
+        Alamofire.request(.GET, "http://api.fixer.io/latest?base=USD")
             .responseJSON {  response in
                 switch response.result {
                 case .Success(let value):
@@ -40,7 +39,7 @@ class ViewController: UIViewController {
                     self.BRL.text = String(value["rates"]!!["BRL"]!!)
                     self.CHF.text = String(value["rates"]!!["CHF"]!!)
                     self.JYP.text = String(value["rates"]!!["JPY"]!!)
-                   print (value["rates"]!!["USD"]!!)
+//                   print (value["rates"]!!["USD"]!!)
                     // completionHandler(value as? NSDictionary, nil)
                 case .Failure(let error):
                     print(error)
@@ -49,6 +48,9 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func didPressOnButton(sender: AnyObject) {
+        self.performSegueWithIdentifier("PushView", sender: self)
+    }
     
 }
 

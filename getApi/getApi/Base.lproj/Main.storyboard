@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RgP-4G-uO2">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oK0-Oc-7S5">
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oK0-Oc-7S5">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -81,6 +81,14 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LZ-Fn-Cng">
+                                <rect key="frame" x="79" y="512" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didPressOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yB1-hY-eBw"/>
+                                    <segue destination="n0b-mS-uTE" kind="show" identifier="PushView" id="adN-fe-3h2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -95,7 +103,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="325" y="241"/>
+            <point key="canvasLocation" x="265" y="241"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bmb-Ps-Zax">
+            <objects>
+                <viewController id="n0b-mS-uTE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A3S-f5-4O1"/>
+                        <viewControllerLayoutGuide type="bottom" id="zuG-bl-Mjd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tnM-lz-qVP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ThC-OW-f9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="974" y="241"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="42g-6t-fdt">
+            <objects>
+                <viewController id="RgP-4G-uO2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ti3-W2-fgZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="vgP-Y6-ACW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8RD-U3-Uih">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eD-DT-Uas">
+                                <rect key="frame" x="50" y="70" width="500" height="480"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6eD-DT-Uas" firstAttribute="leading" secondItem="8RD-U3-Uih" secondAttribute="leading" constant="50" id="697-cN-H09"/>
+                            <constraint firstAttribute="trailing" secondItem="6eD-DT-Uas" secondAttribute="trailing" constant="50" id="M5V-Hp-tGH"/>
+                            <constraint firstItem="vgP-Y6-ACW" firstAttribute="top" secondItem="6eD-DT-Uas" secondAttribute="bottom" constant="50" id="Xpy-di-bFH"/>
+                            <constraint firstItem="6eD-DT-Uas" firstAttribute="top" secondItem="Ti3-W2-fgZ" secondAttribute="bottom" constant="50" id="sV6-Gw-TeO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wfL-Y9-XUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="231"/>
         </scene>
     </scenes>
     <resources>
